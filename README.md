@@ -16,33 +16,17 @@ Simple web application for adding and searching recipes written in Haskell.
 This project was created as part of the university course:
 **Functional Programming**.
 
-Simple web application for adding and searching recipes written in Haskell.
+## Database setup
 
-## Technologies
-- Haskell
-- Threepenny-GUI
-- PostgreSQL
-
-## Features
-- adding recipes
-- browsing recipes
-- searching recipes
-
-## Purpose
-This project was created as part of the university course:
-**Functional Programming**.
-
-## Running the project
-
-```bash
-cabal run
-```
-
-Application runs on:
+Before running the application, create a PostgreSQL database named:
 
 ```text
-http://127.0.0.1:8023
+recipes
 ```
+
+Make sure PostgreSQL is running locally.
+
+You may also need to update database credentials in `Connection.hs`.
 
 ## Running the project
 
